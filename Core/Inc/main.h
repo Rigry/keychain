@@ -62,6 +62,10 @@ void Error_Handler(void);
 #define TX_led_GPIO_Port GPIOB
 #define RX_led_Pin GPIO_PIN_13
 #define RX_led_GPIO_Port GPIOB
+#define RESET_Pin GPIO_PIN_9
+#define RESET_GPIO_Port GPIOA
+#define SET_Pin GPIO_PIN_10
+#define SET_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
